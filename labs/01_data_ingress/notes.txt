@@ -1,0 +1,49 @@
+ Week #1 Lab builds on the lectures on Data Ingress and will involve scraping 
+ data from the Web.  
+
+Prerequisites 
+
+    Install Anaconda (https://www.anaconda.com/products/individual). You can 
+    skip installing Anaconda if you have Jupyter Notebook or JupterLab 
+    installed on your computer, but Anaconda is recommended as it comes with 
+    most libraries you would need for data science.
+
+    Register for Guardian’s REST API key
+        Follow the steps here: https://bonobo.capi.gutools.co.uk/register/developer
+        On registration, you will receive an API key which will look like: 
+        303qwe2k-xxxx-xxxx-xxxx-eff86a248059
+
+To prepare for Lab 1, you should listen to Week #1 lecture videos and (if 
+need be) refresh your understanding of Python data structures. You are 
+provided with Python notebooks that give an overview of working with lists, 
+dictionaries, Pandas, and JSON in Python.
+
+    List: 01_lists.ipynb  
+    Dictionary: 02_dicts.ipynb  
+    CSV and Pandas: 03_csv_pandas.ipynb  
+    JSON: 04_json_python.ipynb  
+
+In Lab #1, we will experiment with (1) Beautiful Soup Python ( https://www.crummy.com/software/BeautifulSoup/) 
+package to obtain data from the Guardian newspaper’s website; and (2) Guardian’s 
+REST API ( http://open-platform.theguardian.com/) to obtain structured data in 
+JSON format from Guardian. You will be provided with a list of tasks to complete 
+using the Beautiful Soup package and using the Guardian REST API. To introduce 
+you to both, you are given two other Python notebooks for you to play with before 
+the lab.  
+
+    Web scraping with Beautiful Soup: 05_web_scraping_beautiful_soup.ipynb  
+    Web scraping using Guardian's REST API: 06_web_scraping_api-initial.ipynb  
+
+You should familiarize yourself with the code blocks in these notebooks before 
+the lab. The lab tasks will build on these notebooks. 
+
+On the Day of the Lab
+
+    Download and skim through the Lab task  specification: <Link>
+    This task specification describes the actuals tasks you will perform 
+    during the lab. It will be released prior to the lab.
+
+Other resources for web scraping and parsing HTML:
+    Tutorial for using regular expressions in Python: https://developers.google.com/edu/python/regular-expressions
+    Scrapy: https://scrapy.org/
+    lxml: https://lxml.de/parsing.html
